@@ -6,3 +6,6 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../base
+images:
+- name: ghcr.io/fayizk1/go-webapp-sample
+  newTag: c25084e8b35501ed5ce7877fa48afe9ce74f2a74
