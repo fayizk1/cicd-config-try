@@ -8,4 +8,4 @@ resources:
 - ../base
 images:
 - name: ghcr.io/fayizk1/go-webapp-sample
-  newTag: 6fb78956966cb1b30d1d5f35d6c6609863120c76
+  newTag: 2025684ea82e33d6040fdb4bf57f70a581dd589b
