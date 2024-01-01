@@ -1,0 +1,11 @@
+namespace: fluxcd
+patches:
+- path: deploy.yaml
+- path: namespace.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../base
+images:
+- name: ghcr.io/fayizk1/go-webapp-sample
+  newTag: 6fb78956966cb1b30d1d5f35d6c6609863120c76
