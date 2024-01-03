@@ -7,6 +7,7 @@ kind: Kustomization
 resources:
 - ../base
 - ./tekton_task.yaml
+- ./tekton_taskrun.yaml
 images:
 - name: ghcr.io/fayizk1/go-webapp-sample
   newTag: 2025684ea82e33d6040fdb4bf57f70a581dd589b
